@@ -39,6 +39,13 @@ body {
 }
 
 
+.box{
+    position:absolute;
+    top:340px;
+    left:170px;
+    z-index:2;
+}
+
 .pattern{
     position:absolute;
     bottom:-150px;
@@ -50,5 +57,42 @@ body {
     position:absolute;
     bottom:90px;
     left:-80px;
+}
+
+.heading{
+    font-weight:var(--bold);
+    font-size: 32px;
+    padding:65px 0 15px 0;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.wrapper{
+    padding:16px 40px 0 0;
+    width:400px;
+    border-bottom:1px solid #E8E8EA;
+}
+
+.question{
+    display:flex;
+    justify-content:space-between;
+    font-size:14px;
+    line-height:14.08px;
+    color:#4B4C5F;
+    padding:10px 0;
+}
+
+.open{
+    cursor:pointer;
+    width:12px;
+    height:10px;
+}
+
+.hide{
+    font-size:12px;
+    line-height:18px;
+    font-weight:var(--light);
+    color: #787887;
+    display:none;
 
 }
