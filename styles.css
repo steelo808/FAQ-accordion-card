@@ -21,6 +21,7 @@ body {
     width:100%;
     position:relative;
     background-repeat:no-repeat;
+    font-family:var(--main-font);
 }
 
 .container{
@@ -32,4 +33,22 @@ body {
     transform:translate(-50%, -50%);
     background-color:#ffffff;
     border-radius:23px;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    overflow:hidden;
+}
+
+
+.pattern{
+    position:absolute;
+    bottom:-150px;
+    left:-600px;
+
+}
+
+.woman{
+    position:absolute;
+    bottom:90px;
+    left:-80px;
+
 }
