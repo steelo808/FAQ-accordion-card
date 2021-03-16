@@ -70,3 +70,12 @@ Feedback is always welcome, so if you have any to give on this challenge please 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+
+
+Happy tuesday!
+
+Been Mia for a while been so busy these past few weeks but the grind never stopped been working on finishing up some final touches for a clients website so thats probably going to be on my agenda for the rest of the week as well as finishing up this javascript/react course i started a while back on udemy.
+I hope everyone has a productive week!
+
+what do you guys have planned for the week?
