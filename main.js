@@ -1,5 +1,6 @@
 const reveal = document.querySelector('.open');
 const hide = document.querySelector('.hide');
+const question = document.querySelector('.question');
 
 //Open arrows
 const open1 = document.querySelector('.open-1');
@@ -21,11 +22,10 @@ const hide5 = document.querySelector('.hide-5');
 
 
 //function on click
-
-
-open1.addEventListener('click', ()=>{
+open1.addEventListener('click', () =>{
     hide1.style.display = "block";
     open1.style.transform = "rotate(180deg)";
+    question.classList.add("active-bold");
 });
 
 open2.addEventListener('click', ()=>{
@@ -47,16 +47,4 @@ open5.addEventListener('click', ()=>{
     hide5.style.display = "block";
     open5.style.transform = "rotate(180deg)";
 });
-
-
-function dropdown(){
-    const reveal = document.querySelector('.open');
-    const hide = document.querySelector('.hide');
-
-    if(hide.style.display == "block"){
-        hide.style.display ="none";
-    }else{
-        hide.style.display = "block";
-    }
-}
 

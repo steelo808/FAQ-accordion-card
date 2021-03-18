@@ -4,6 +4,7 @@
     --active-color:F47B56;
     --dark-text: hsl(237, 12%, 33%);
     --light-text:hsl(240, 6%, 50%);
+    --hover:#F47B56;
     --light:400;
     --bold:700;
     --main-font:'Kumbh Sans', sans-serif;
@@ -81,6 +82,15 @@ body {
     line-height:14.08px;
     color:#4B4C5F;
     padding-bottom:5px;
+}
+
+.question:hover{
+    color:var(--hover);
+    cursor:pointer;
+}
+
+.active-bold{
+    font-weight: var(--bold);
 }
 
 .open{
